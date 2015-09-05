@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title></title>
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/highlight.dark.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="/">
+                The title
+                <small class="hidden-xs hidden-sm">
+                    This is the default subtitle!
+                </small>
+            </a>
+
+            
+        </header>
+
+        <main class="container">
+            <div class="row">
+
+                
+                <section id="content" class="col-sm-12">
+                    <h1 id="the-largest-heading-an">The largest heading (an <h1 id="tag"> tag)</h1>
+<h2 id="the-second-largest-heading-an">The second largest heading (an <h2 id="tag-1"> tag)</h2>
+<p>…</p>
+<h6 id="the-6th-largest-heading-an">The 6th largest heading (an <h6 id="tag-2"> tag)</h6>
+<p>In the words of Abraham Lincoln:</p>
+<blockquote>
+<p>Pardon my french</p>
+</blockquote>
+<p><em>This text will be italic</em>
+<strong>This text will be bold</strong></p>
+<ul>
+<li>Item</li>
+<li>Item</li>
+<li>Item</li>
+</ul>
+<ol>
+<li>Item 1
+<ol>
+<li>A corollary to the above item.</li>
+<li>Yet another point to consider.</li>
+</ol></li>
+</ol>
+<p>Here's an idea: why don't we take <code>SuperiorProject</code> and turn it into <code>**Reasonable**Project</code>.</p>
+<p>Check this out:</p>
+<pre><code>x = 0
+x = 2 + 2
+what is x</code></pre>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>
